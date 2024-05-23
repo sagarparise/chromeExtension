@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Title Fetcher",
+  "version": "1.0",
+  "description": "Fetches and displays the title of the current tab and copies it to the clipboard.",
+  "permissions": [
+    "tabs"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+    
+  },
+  "icons": {
+    "16": "images/h.png",
+    "48": "images/h.png",
+    "128": "images/h.png"
+  }
+ 
+}
